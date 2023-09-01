@@ -2,7 +2,8 @@
 
 ## System Design
 
-### SOftwaredevelopment Lifecycle
+### Softwaredevelopment Lifecycle
+![alt text](https://github.com/aleksandraklofat/database_design_notes/blob/main/software%20development%20life%20cycle.png)
 
 ## Model / modeling a database / Architecture
 
@@ -32,4 +33,5 @@ Design that encompasses all requirements.
 
 ## Top-down Design
 - optimal choice when creating everything from scratch
+
 ## Bottom-up Desgin
