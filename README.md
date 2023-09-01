@@ -5,6 +5,23 @@
 ### Softwaredevelopment Lifecycle
 ![alt text](https://github.com/aleksandraklofat/database_design_notes/blob/main/software%20development%20life%20cycle.png)
 
+### Phase 1 - Requirements
+What am I trying to build?
+The scope
+
+### Phase 2 - System Analysis
+
+Taking requirements and analysing: time and what will be needed
+
+### Phase 3 - System Architecture
+
+We design system architecture
+
+### Phase 4 - Building that software
+
+There can be more phases.
+
+
 ## Model / modeling a database / Architecture
 
 Model is a design to visualise, what we are going to build
