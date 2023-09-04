@@ -43,12 +43,30 @@ You cannot start from CREATE table in postgres.
 
 # Phase 3: System Design
 
+You take what stakeholders want to accomplish and form as tructure around it and you communicate this structure.
+
 Different techniques to design databases. 
 
 Question: What does the business needs?
 Design that encompasses all requirements. 
 
-## Top-down Design
-- optimal choice when creating everything from scratch
+Different techniques to desgin a database.
 
-## Bottom-up Desgin
+## 1. Top-down Design
+Optimal choice when creating everything from scratch
+
+1. current mission, current situation
+2. requirements
+3. how do we model database? 
+
+Goal: create database model that is based on the requirements
+
+this is interative. you design it iteratively. 
+you have to have deep understanding of the business and how it function. 
+
+### ER-Modeling
+
+
+## 2. Bottom-up Desgin
+- there is a system/database
+- for existing databases
