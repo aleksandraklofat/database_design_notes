@@ -79,7 +79,7 @@ Model database as a chart
 - keys
 - single/mutiple
 
-Relation Schema - Table Schema: representation of data that is going into table
+Relation Schema - Table Schema: representation of data that is going into table </br>
 Realtion Keys - inherently unique, identify the row and the relationship
 Primary Key - unique identifyier (we decide which one from relation keys will bekome primary key)
 
