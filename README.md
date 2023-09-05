@@ -64,8 +64,19 @@ Goal: create database model that is based on the requirements
 this is interative. you design it iteratively. 
 you have to have deep understanding of the business and how it function. 
 
-### ER-Modeling
+### ER-Modeling / ERD (entity-relationship modeling)
 
+1. Determine entities in the system
+Entity: 
+person/place/thing + singular name + has identifier + contain more than one instance of data
+
+Model database as a chart
+
+2. Atributes 
+- must be property of entity
+- can hold only single value (atomic)
+- keys
+- single/mutiple
 
 ## 2. Bottom-up Desgin
 - there is a system/database
