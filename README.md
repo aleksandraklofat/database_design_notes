@@ -73,10 +73,15 @@ person/place/thing + singular name + has identifier + contain more than one inst
 Model database as a chart
 
 2. Atributes 
+
 - must be property of entity
 - can hold only single value (atomic)
 - keys
 - single/mutiple
+
+Relation Schema - Table Schema: representation of data that is going into table
+Realtion Keys - inherently unique, identify the row and the relationship
+Primary Key - unique identifyier (we decide which one from relation keys will bekome primary key)
 
 ## 2. Bottom-up Desgin
 - there is a system/database
