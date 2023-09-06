@@ -72,6 +72,7 @@ person/place/thing + singular name + has identifier + contain more than one inst
 
 Model database as a chart
 
+
 2. Atributes 
 
 - must be property of entity
@@ -80,8 +81,18 @@ Model database as a chart
 - single/mutiple
 
 Relation Schema - Table Schema: representation of data that is going into table </br>
-Realtion Keys - inherently unique, identify the row and the relationship
-Primary Key - unique identifyier (we decide which one from relation keys will bekome primary key)
+Realtion Keys - inherently unique, identify the row and the relationship </br>
+Primary Key - unique identifyier (we decide which one from relation keys will bekome primary key) </br>
+Foreign Key - </br>
+Compound Key - </br>
+Composite Key - </br>
+Surrogate Key - (actualy it is primary key - it represents unique row, id field) </br>
+
+3. For every entity determine what things it will store/Atributes(?)
+
+4. Drawing relationships between entities
+
+Relationships: 1 to 1, 1 to many, many to many
 
 ## 2. Bottom-up Desgin
 - there is a system/database
