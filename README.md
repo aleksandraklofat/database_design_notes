@@ -94,6 +94,16 @@ Surrogate Key - (actualy it is primary key - it represents unique row, id field)
 
 Relationships: 1 to 1, 1 to many, many to many
 
-## 2. Bottom-up Desgin
+Many to Many is very difficult to describe in relational databases. 
+You need intermediate type: intermediate table
+
+## 2. Bottom-Up Desgin
+
 - there is a system/database
 - for existing databases
+
+### 1. Data
+Find data, Identify Atributes (data that is required)
+
+### 2. Create entities out of data
+
