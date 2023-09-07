@@ -75,6 +75,16 @@ Model database as a chart
 
 2. Atributes 
 
+In the context of databases, particularly relational databases, attributes refer to the properties or characteristics of an entity. They define the different types of data that can be stored about that entity.
+
+for example, consider an entity "Person". The attributes for the "Person" might include:
+
+    FirstName: The first name of the person.
+    LastName: The last name of the person.
+    DateOfBirth: The birth date of the person.
+    EmailAddress: The email address of the person.
+    PhoneNumber: The phone number of the person.
+
 - must be property of entity
 - can hold only single value (atomic)
 - keys
@@ -111,3 +121,6 @@ Find data, identify Atributes (data that is required)
 
 Good description how normalisation works:
 https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
+
+creating data schema + entities
+normalisation = design technique 
