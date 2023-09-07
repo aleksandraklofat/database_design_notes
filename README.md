@@ -124,3 +124,15 @@ https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalizat
 
 creating data schema + entities
 normalisation = design technique 
+
+Functional Dependency
+Functional dependency shows a relationship between attributes
+
+If X→Y holds, then whenever two rows in a table have the same values for attributes in X, they will also have the same values for attributes in Y.
+
+
+Here's a practical example:
+Consider a relation (or table) with attributes StudentID, CourseID, and CourseName. If every CourseID is associated with a single CourseName, then we can say:
+
+    CourseID functionally determines CourseName.
+    This can be represented as: CourseID -> CourseName.
