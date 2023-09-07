@@ -103,7 +103,11 @@ You need intermediate type: intermediate table
 - for existing databases
 
 ### 1. Data
-Find data, Identify Atributes (data that is required)
+Find data, identify Atributes (data that is required)
 
 ### 2. Create entities out of data
 
+### Normalisation
+
+Good description how normalisation works:
+https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
