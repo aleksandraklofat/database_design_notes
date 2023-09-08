@@ -142,3 +142,19 @@ Based on the value of X, we can determine the value of Y.
 employee_nr → first_name
 X → Y
 Y is dependent on X (in order to identify its value)
+
+#### Normalisation - Book (Link)
+https://www.cs.uct.ac.za/mit_notes/database/htmls/chp09.html
+
+## Normal Forms
+
+### 0NF 
+
+what kind of data is there ?
+data is unnormalized
+non atomic data 
+
+### 1NF
+- eliminated repeating data (repeating columns etc.)
+- each atribute should contain a single value (Create a separate table for each set of related data)
+- determine primary key
