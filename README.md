@@ -141,3 +141,4 @@ Based on the value of X, we can determine the value of Y.
 
 employee_nr → first_name
 X → Y
+Y is dependent on X (in order to identify its value)
