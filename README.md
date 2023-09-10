@@ -150,11 +150,24 @@ https://www.cs.uct.ac.za/mit_notes/database/htmls/chp09.html
 
 ### 0NF 
 
-what kind of data is there ?
-data is unnormalized
+what kind of data is there ? /
+data is unnormalized /
 non atomic data 
 
 ### 1NF
-- eliminated repeating data (repeating columns etc.)
+- eliminated repeating data, repeating groups (repeating columns etc.)
 - each atribute should contain a single value (Create a separate table for each set of related data)
 - determine primary key
+
+### 2NF
+going to 2 you need to be in 1. You cannot skip the steps. 
+- all non-key attributes are functionally dependent on the primary key
+
+    "Create separate tables for sets of values that apply to multiple records.
+    Relate these tables with a foreign key." (https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
+
+
+### 3NF 
+Eliminate fields that don't depend on the key.
+
+## Database Scalability
