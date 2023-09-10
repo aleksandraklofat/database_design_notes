@@ -171,3 +171,28 @@ going to 2 you need to be in 1. You cannot skip the steps.
 Eliminate fields that don't depend on the key.
 
 ## Database Scalability
+
+### Horizontal
+
+Add more databases instead of hardware. Databases need to communicate  with each other. Adds complexity.
+"This scaling approach adds more database nodes to handle the increased workload. It decreases the load on the server rather than expanding the individual servers. " (freecodemap)
+
+### Vertical
+
+Adding more capactity to a single database/machine. Adding fisical device/hardware to the machine so that it is more powerful. Can get expensive. 
+"The vertical scaling approach increases the capacity of a single machine by increasing the resources in the same logical server. This involves adding resources like memory, storage, and processing power to existing software, enhancing its performance. " (freecodemap)
+Scale-up 
+In realtional databases that was the usual way for scaling. 
+
+### Sharding
+
+Splitting up the data into different databases. Implementing a system that knows where each data is. 
+
+### Replication
+
+Replicating data across many machines. Happens in real time.
+
+### Backups
+
+Backups: storing entire database. Dump of the data into a file. Ideally multiple locations. 
+Mostly takes more time that replication.
