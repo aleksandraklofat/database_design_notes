@@ -196,3 +196,8 @@ Replicating data across many machines. Happens in real time.
 
 Backups: storing entire database. Dump of the data into a file. Ideally multiple locations. 
 Mostly takes more time that replication.
+
+## NoSQL vs SQL
+
+Nosql - MongoDM - easier to scale horizontaly
+SQL - Postgres
